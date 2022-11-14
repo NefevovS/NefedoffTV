@@ -1,0 +1,75 @@
+.nav {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.navbarRow {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.activeNav {
+  border: 1px solid white !important;
+  border-radius: 20px !important;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 25px;
+}
+
+.navigation div:not(.logo) {
+  border: 1px solid black;
+  border-radius: 20px;
+}
+.navigation div:not(.logo):hover {
+  border: 1px solid rgba(255, 255, 255, 0.678);
+  border-radius: 20px;
+}
+
+.seach {
+  width: 56px;
+  height: 40px;
+}
+.forYou {
+  width: 104px;
+  height: 40px;
+  text-align: center;
+  line-height: 2;
+}
+.movies {
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  line-height: 2;
+}
+.tv {
+  width: 60px;
+  height: 40px;
+  text-align: center;
+  line-height: 2;
+}
+.kids {
+  width: 72px;
+  height: 48px;
+}
+.loginBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.loginAvatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.loginAvatar:hover {
+  opacity: 0.8;
+}

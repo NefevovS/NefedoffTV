@@ -1,0 +1,24 @@
+.video {
+  margin-bottom: 30px;
+}
+
+.videoPlayOverlay {
+  border-radius: 16px;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid wheat;
+}
+
+.videoTitle {
+  position: absolute;
+  bottom: 158px;
+  left: 64px;
+}
+.btnBlock {
+  display: flex;
+  justify-content: start;
+  column-gap: 22px;
+  position: absolute;
+  bottom: 73px;
+  left: 64px;
+}

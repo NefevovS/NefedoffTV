@@ -1,0 +1,19 @@
+.watchBtn {
+  width: 151px;
+  height: 48px;
+  border-radius: 24px;
+  background: linear-gradient(90.42deg, #321ac5 0.58%, #6512cf 99.85%);
+}
+.watchBtn:hover {
+  background: linear-gradient(90.42deg, #311ac5b4 0.58%, #6412cfd7 99.85%);
+}
+.plusBtn {
+  width: 64px;
+  height: 48px;
+  border-radius: 24px;
+  border: 1px solid #ffffff;
+  background-color: rgba(0, 0, 0, 0);
+}
+.plusBtn:hover {
+  border: 1px solid rgba(255, 255, 255, 0.678);
+}

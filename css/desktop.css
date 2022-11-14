@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+body {
+  background-color: black;
+  font-family: "Inter", sans-serif;
+}
+
+* {
+  text-decoration: none;
+  color: white;
+}
+
+.containerNavbar {
+  width: 1240px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 1220px;
+  margin: 0 auto;
+}
+
+.nav {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.navbarRow {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.activeNav {
+  border: 1px solid white !important;
+  border-radius: 20px !important;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -moz-column-gap: 25px;
+       column-gap: 25px;
+}
+
+.navigation div:not(.logo) {
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.navigation div:not(.logo):hover {
+  border: 1px solid rgba(255, 255, 255, 0.678);
+  border-radius: 20px;
+}
+
+.seach {
+  width: 56px;
+  height: 40px;
+}
+
+.forYou {
+  width: 104px;
+  height: 40px;
+  text-align: center;
+  line-height: 2;
+}
+
+.movies {
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  line-height: 2;
+}
+
+.tv {
+  width: 60px;
+  height: 40px;
+  text-align: center;
+  line-height: 2;
+}
+
+.kids {
+  width: 72px;
+  height: 48px;
+}
+
+.loginBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+
+.loginAvatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.loginAvatar:hover {
+  opacity: 0.8;
+}
+
+.video {
+  margin-bottom: 30px;
+}
+
+.videoPlayOverlay {
+  border-radius: 16px;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid wheat;
+}
+
+.videoTitle {
+  position: absolute;
+  bottom: 158px;
+  left: 64px;
+}
+
+.btnBlock {
+  display: flex;
+  justify-content: start;
+  -moz-column-gap: 22px;
+       column-gap: 22px;
+  position: absolute;
+  bottom: 73px;
+  left: 64px;
+}
+
+.watchBtn {
+  width: 151px;
+  height: 48px;
+  border-radius: 24px;
+  background: linear-gradient(90.42deg, #321ac5 0.58%, #6512cf 99.85%);
+}
+
+.watchBtn:hover {
+  background: linear-gradient(90.42deg, rgba(49, 26, 197, 0.7058823529) 0.58%, rgba(100, 18, 207, 0.8431372549) 99.85%);
+}
+
+.plusBtn {
+  width: 64px;
+  height: 48px;
+  border-radius: 24px;
+  border: 1px solid #ffffff;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.plusBtn:hover {
+  border: 1px solid rgba(255, 255, 255, 0.678);
+}/*# sourceMappingURL=desktop.css.map */

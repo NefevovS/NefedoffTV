@@ -1,0 +1,25 @@
+body {
+  // background-image: url(/img/backgroundGradient.jpg);
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // background-attachment: fixed;
+  background-color: black;
+  font-family: "Inter", sans-serif;
+}
+* {
+  text-decoration: none;
+  color: white;
+}
+
+.containerNavbar {
+  width: 1240px;
+  margin: 0 auto;
+}
+.container {
+  width: 1220px;
+  margin: 0 auto;
+}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+@import "./bloks/navbar";
+@import "./bloks/video";
+@import "./bloks/buttons";
