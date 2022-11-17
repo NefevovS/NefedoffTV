@@ -9,6 +9,10 @@ body {
   color: white;
 }
 
+.none {
+  display: none;
+}
+
 .containerNavbar {
   width: 1240px;
   margin: 0 auto;
@@ -154,4 +158,91 @@ body {
 
 .plusBtn:hover {
   border: 1px solid rgba(255, 255, 255, 0.678);
+}
+
+.selectGenreFilms {
+  margin-bottom: 24px;
+}
+
+.selectGenreFilmsRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.genreWrapper {
+  overflow: hidden;
+  border-radius: 8px;
+  position: relative;
+}
+.genreWrapper:hover {
+  transform: scale(110%);
+}
+
+.genreWrapper img {
+  display: block;
+}
+
+.genreWrapper::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #060608 100%);
+}
+
+.genreWrapper::after {
+  content: attr(title);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.continueWatching {
+  margin-bottom: 80px;
+}
+
+.continueWatchingTitle {
+  margin-bottom: 24px;
+}
+
+.continueWatchingRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.continueFilmWrapper {
+  overflow: hidden;
+  border-radius: 12px;
+}
+.continueFilmWrapper:hover {
+  transform: scale(110%);
+}
+
+.filmMenuGenre {
+  margin-bottom: 80px;
+}
+
+.filmMenuGenreTitle {
+  margin-bottom: 24px;
+}
+
+.filmMenuGenreWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filmMenuGenreCard {
+  overflow: hidden;
+  border-radius: 12px;
+}
+.filmMenuGenreCard:hover {
+  transform: scale(110%);
 }/*# sourceMappingURL=desktop.css.map */

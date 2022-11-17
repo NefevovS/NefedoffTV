@@ -10,7 +10,9 @@ body {
   text-decoration: none;
   color: white;
 }
-
+.none {
+  display: none;
+}
 .containerNavbar {
   width: 1240px;
   margin: 0 auto;
@@ -23,3 +25,6 @@ body {
 @import "./bloks/navbar";
 @import "./bloks/video";
 @import "./bloks/buttons";
+@import "./bloks/selectGenreFilms";
+@import "./bloks/continueWatching";
+@import "./bloks/filmMenuGenre";

@@ -1,0 +1,18 @@
+.filmMenuGenre {
+  margin-bottom: 80px;
+}
+
+.filmMenuGenreTitle {
+  margin-bottom: 24px;
+}
+.filmMenuGenreWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.filmMenuGenreCard {
+  overflow: hidden;
+  border-radius: 12px;
+  &:hover {
+    transform: scale(110%);
+  }
+}
